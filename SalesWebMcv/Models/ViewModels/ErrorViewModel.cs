@@ -1,5 +1,7 @@
-namespace SalesWebMcv.Models {
-    public class ErrorViewModel {
+namespace SalesWebMcv.Models.ViewModels
+{
+    public class ErrorViewModel
+    {
         public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
