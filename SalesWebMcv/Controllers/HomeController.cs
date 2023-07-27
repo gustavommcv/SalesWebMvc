@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebMcv.Models.ViewModels;
+using SalesWebMvc.Models.ViewModels;
 using System.Diagnostics;
 
-namespace SalesWebMcv.Controllers {
+namespace SalesWebMvc.Controllers {
     public class HomeController : Controller {
         private readonly ILogger<HomeController> _logger;
 

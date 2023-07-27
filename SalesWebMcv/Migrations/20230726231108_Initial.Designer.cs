@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SalesWebMcv.Data;
+using SalesWebMvc.Data;
 
 #nullable disable
 
-namespace SalesWebMcv.Migrations
+namespace SalesWebMvc.Migrations
 {
-    [DbContext(typeof(SalesWebMcvContext))]
+    [DbContext(typeof(SalesWebMvcContext))]
     [Migration("20230726231108_Initial")]
     partial class Initial
     {
