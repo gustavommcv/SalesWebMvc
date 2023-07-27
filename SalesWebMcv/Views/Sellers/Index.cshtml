@@ -6,14 +6,13 @@
 
 <h2>@ViewData["Title"]</h2>
 
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
 <table class="table table-striped table-hover">
     <thead>
-        <tr style="--bs-table-color: #000; --bs-table-bg: #9F9F9F; --bs-table-border-color: #9F9F9F; --bs-table-striped-bg: #9F9F9F; --bs-table-striped-color: #000; --bs-table-active-bg: #9F9F9F;
-                   --bs-table-active-color: #000;
-                   --bs-table-hover-bg: #9F9F9F;
-                   --bs-table-hover-color: #000;
-                   color: var(--bs-table-color);
-                   border-color: var(--bs-table-border-color);">
+        <tr class="table-dark">
             <th>
                 @Html.DisplayNameFor(model => model.Name);
             </th>
