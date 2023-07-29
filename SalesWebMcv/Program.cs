@@ -2,6 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using SalesWebMvc.Data;
 using SalesWebMvc.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +20,13 @@ builder.Services.AddScoped<DepartmentService>();
 
 var app = builder.Build();
 
+var enUS = new CultureInfo("en-US");
+var localizationOptions = new RequestLocalizationOptions {
+    DefaultRequestCulture = new RequestCulture(enUS),
+    SupportedCultures = new List<CultureInfo> { enUS },
+    SupportedUICultures = new List<CultureInfo> { enUS },
+};
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment()) {
     app.UseExceptionHandler("/Home/Error");
@@ -30,6 +40,8 @@ if (!app.Environment.IsDevelopment()) {
     var seedingService = services.GetRequiredService<SeedingService>(); // Reference to the SeedingService
     seedingService.Seed(); // Using seed method
 }
+
+app.UseRequestLocalization(localizationOptions);
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
