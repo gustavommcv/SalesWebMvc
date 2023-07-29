@@ -1,7 +1,6 @@
 # SalesWebMvc
-
 ### Sobre o projeto
-
+#### Versão .NET: 7
 SalesWebMvc é uma aplicação CRUD desenvolvida para cadastros de Departamentos, vendedores e vendas, pode ser tirado um relatório de vendas baseado no período informado na consulta de data inicial e final contendo o somatório do total de vendas daquele período.
 
 ## Layout da Lista de Departamento
