@@ -10,19 +10,19 @@ SalesWebMvc é uma aplicação CRUD desenvolvida para cadastros de Departamentos
 ![Lista de Vendedores](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/50babc1e-5c86-4292-8a42-1c8fda6b9bd4)
 
 ## Layout do Cadastro de Vendedores
-![Cadastro de Vendedores](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/34d6e098-3422-4461-98fd-040d666e2589)
+![Cadastro de Vendedores](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/b87fe61e-a06b-4d7c-93af-75d4e9ed1a8f)
 
 ## Layout da Pesquisa Simples e Agrupada de Vendas
-![Tipos de Pesquisa de Vendas](https://i.pinimg.com/originals/92/3e/24/923e2413172dfbe67c80b6662ac54c4a.jpg)
+![Tipos de Pesquisa de Vendas](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/8cba912d-8a6d-43e9-92b1-03bd9be8fbc3)
 
 ## Layout da Consulta Simples por Datas
-![Pesquisa Simples por Data Inicial e Final](https://i.pinimg.com/originals/92/3e/24/923e2413172dfbe67c80b6662ac54c4a.jpg)
+![Pesquisa Simples por Data Inicial e Final](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/10b95944-aa93-4a29-ac19-cb2dcb10f2d5)
 
 ## Layout da Consulta Agrupada por Datas
-![Pesquisa Agrupada por Data Inicial e Final](https://i.pinimg.com/originals/92/3e/24/923e2413172dfbe67c80b6662ac54c4a.jpg)
+![Pesquisa Agrupada por Data Inicial e Final](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/ad7757e2-7e3e-4d95-a16e-ec0a4c8acdbf)
 
 ## Layout da Exceção de Cadastro de informações no formulário inválidas
-![Cadastro Exceção Formulário](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/79307358-24eb-4028-9464-c6f11d2d4aec)
+![Cadastro Exceção Formulário](https://github.com/gustavommcv/SalesWebMvc/assets/88604190/f58f2e98-489f-4ffc-88c8-4b71e7a2022e)
 
 ## Stack de Desenvolvimento
 ### Back end
