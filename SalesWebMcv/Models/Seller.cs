@@ -14,18 +14,19 @@ namespace SalesWebMvc.Models {
         public string Email { get; set; }
 
         [Required(ErrorMessage = "{0} required")]
+        [Display(Name = "Birth Date")]
+        [DataType(DataType.Date)]
+        public DateTime BirthDate { get; set; }
+
+        [Required(ErrorMessage = "{0} required")]
         [Range(100.0, 100000.0, ErrorMessage = "{0} must be from {1} to {2}")]
         [Display(Name = "Base Salary")]
         [DisplayFormat(DataFormatString = "{0:F2}")]
         public double BaseSalary { get; set; }
 
-        [Required(ErrorMessage = "{0} required")]
-        [Display(Name = "Birth Date")]
-        [DataType(DataType.Date)]
-        public DateTime BirthDate { get; set; }
-
         public Department Department { get; set; }
         public int DepartmentId { get; set; }
+
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public Seller() { }
